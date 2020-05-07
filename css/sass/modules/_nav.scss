@@ -1,0 +1,45 @@
+.navbar{
+    background: #fff;
+    box-shadow: 2px 2px 8px #444;
+    
+    &-wrapper {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        padding: 1rem 0;
+
+        @include phone {
+            flex-direction: column;
+        }
+    }
+}
+.logo {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+    &__item {
+        padding: 0 .5rem;
+        border-right: 1px solid #59067a;
+        text-align: center;
+    }
+    &__item:last-child {
+        border: none;
+    }
+    &__link {
+        text-decoration: none;
+        color: #3d0255;
+        transition: all .5s;
+    }
+    &__link:hover{
+        font-weight: bold;
+        color: #5a06c7;
+    }
+}

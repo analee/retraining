@@ -1,0 +1,70 @@
+.header__info {
+    background: #cfe7d7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+}
+.header__icons{
+    a {
+        color: #000;
+        font-size: 1.5rem;
+        margin: 0 .5rem;
+    }
+}
+.header__form{
+    width: 30%;
+    text-align: center;
+}
+.search{
+    border: none;
+    border-radius: 10px;
+    padding: .6rem;
+    text-align: center;
+    width: 100%;
+}
+
+.account-button{
+    text-decoration: none;
+    padding: 0 .5rem;
+    color: rgb(2, 97, 23);
+}
+.account-button:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.header{
+
+    &__content{
+        text-align: center;
+        width: 50%;
+        padding:1rem 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    &__title {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    &__description {
+        color: #fff;
+        font-size: 1.2rem;
+        margin-bottom: 3rem;
+    }
+    &__link{
+        text-decoration: none;
+        text-transform: uppercase;
+        background: #fff;
+        border-radius: 5px;
+        padding: .8rem;
+        color: #00501b;
+    }
+    &__link:hover{
+        text-decoration: underline;
+    }
+}

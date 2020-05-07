@@ -1,0 +1,16 @@
+{
+  "name": "shop",
+  "version": "1.0.0",
+  "description": "online store project",
+  "main": "index.js",
+  "scripts": {
+    "compiler": "node-sass css/sass/styles.scss css/styles.css -w",
+    "prefix": "postcss css/styles.css -u postcss-prefixer -o css/output.css"
+  },
+  "author": "Analee Gonzalez",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss-cli": "^7.1.1",
+    "postcss-prefixer": "^2.1.2"
+  }
+}

@@ -1,0 +1,19 @@
+.footer {
+    padding: 4rem;
+    background: #014610;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+        margin: .5rem 0;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #fff;
+    }
+}
